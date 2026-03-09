@@ -16,7 +16,7 @@ const projects: Project[] = [
         description:
             "A programming language and compiler project focused on explicit compilation stages and first-principles language design.",
         stack: ["Java", "Compiler Design", "Gradle"],
-        liveUrl: "#",
+        liveUrl: "https://freshlyground.onrender.com/",
         githubUrl: "https://github.com/josephhilby/FreshlyGround",
     },
     {
