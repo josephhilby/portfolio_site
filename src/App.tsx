@@ -17,7 +17,7 @@ const projects: Project[] = [
             "A programming language and compiler project focused on explicit compilation stages and first-principles language design.",
         stack: ["Java", "Compiler Design", "Gradle"],
         liveUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/josephhilby/FreshlyGround",
     },
     {
         name: "Hack++",
@@ -25,7 +25,7 @@ const projects: Project[] = [
             "A nand2tetris-inspired computing stack exploring assembly, virtual machines, and computer architecture.",
         stack: ["C++", "Systems", "Emulation"],
         liveUrl: "#",
-        githubUrl: "#",
+        githubUrl: "#https://github.com/josephhilby/HackPlusPlus",
     },
 ];
 
