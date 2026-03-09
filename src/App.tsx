@@ -25,7 +25,7 @@ const projects: Project[] = [
             "A nand2tetris-inspired computing stack exploring assembly, virtual machines, and computer architecture.",
         stack: ["C++", "Systems", "Emulation"],
         liveUrl: "#",
-        githubUrl: "#https://github.com/josephhilby/HackPlusPlus",
+        githubUrl: "https://github.com/josephhilby/HackPlusPlus",
     },
 ];
 
