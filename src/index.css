@@ -341,6 +341,17 @@ button {
   color: #93c5fd;
 }
 
+.project-card__section + .project-card__section {
+  margin-top: 1rem;
+}
+
+.project-card__subheading {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
 /* =========================================================
    Tags / Tech Chips
    ========================================================= */
