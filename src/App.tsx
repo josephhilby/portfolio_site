@@ -34,17 +34,17 @@ function App() {
         <div className="site-shell">
             <header className="hero">
                 <div className="hero__content">
-                    <p className="eyebrow">Software Engineer</p>
+                    <p className="eyebrow">Aviator and Engineer</p>
                     <h1 className="hero__name">Joseph Hilby</h1>
 
                     <p className="hero__tagline">
-                        Systems, compilers, and high-reliability software engineering
+                        Management experience, ~2000 flight hours, and high-reliability software engineering
                     </p>
 
                     <p className="hero__summary">
-                        Computer science student, former naval aviator, and builder of
-                        systems-oriented software projects spanning compilers, platform
-                        engineering, and full-stack application development.
+                        Veteran Naval Aviator and computer science student presenting
+                        a systems-oriented software portfolio incorporating projects, to include:
+                        compiler design, platform engineering, and full-stack application development.
                     </p>
 
                     <div className="hero__actions">
@@ -89,17 +89,17 @@ function App() {
                         <p className="section__label">Snapshot</p>
                         <h2>Aviation leadership, now focused on software and systems</h2>
                         <p>
-                            Former U.S. Naval Aviator with 10+ years leading
-                            personnel, training, and safety-critical flight operations across
-                            aviation, maintenance, and logistics. Currently finishing a second bachelors
-                            degree in Computer Science in order to build a strong technical foundation to
-                            succeed and lead in emerging aerospace and defense technologies.
+                            Former U.S. Naval Aviator with 10+ years leading safety-critical
+                            flight operations, personnel training, aviation maintenance, and logistics.
+                            Currently finishing a second bachelors degree in Computer Science in order
+                            to build a strong technical foundation to succeed and lead in emerging aerospace
+                            and defense technologies.
                         </p>
                     </div>
 
                     <div className="snapshot-grid">
                         <article className="snapshot-card">
-                            <h3>Operational Leadership</h3>
+                            <h3>Military Leadership</h3>
                             <p>
                                 Led teams of 60+ personnel across aviation operations, pilot training,
                                 aircraft maintenance, and mission-critical logistics in high-reliability
@@ -108,7 +108,7 @@ function App() {
                         </article>
 
                         <article className="snapshot-card">
-                            <h3>High-Responsibility Environment</h3>
+                            <h3>High-Risk Operations</h3>
                             <p>
                                 Accountable for safety-critical operations and more than $1B in
                                 aircraft across deployments, training commands, and emergency response
