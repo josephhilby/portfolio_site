@@ -33,7 +33,7 @@ function App() {
                     <h1 className="hero__name">Joseph Hilby</h1>
 
                     <p className="hero__tagline">
-                        Management experience, ~2000 flight hours, and high-reliability software engineering
+                        Management Experience | ~2000 Flight Hours | High-Reliability Software Engineering
                     </p>
 
                     <p className="hero__summary">
