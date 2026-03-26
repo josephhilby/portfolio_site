@@ -19,8 +19,9 @@ const projects: Project[] = [
             "A nand2tetris-inspired computing stack exploring assembly, virtual machines, and computer architecture.",
         techStack: ["C", "C++", "GoogleTest", "TypeScript", "HTML/CSS", "React", "Vite", "VitePress", "Docker"],
         concepts: ["Hardware Emulation", "Instruction Set Architecture", "Assembly", "Virtual Machine Abstraction", "Bit Masking",
-            "Memory Management", "Memory Mapped Input/Output"],
+            "Memory Management", "Memory Mapped Input/Output", "Learning In Public"],
         githubUrl: "https://github.com/josephhilby/HackPlusPlus",
+        docsUrl: "https://hackplusplus-docs.onrender.com/",
     },
 ];
 
