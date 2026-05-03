@@ -38,9 +38,8 @@ function App() {
                     </p>
 
                     <p className="hero__summary">
-                        Veteran Naval Aviator and computer science student presenting a systems-oriented
-                        software portfolio featuring work in compiler design, low-level systems, and full-stack
-                        application development.
+                        Veteran Naval Aviator and UF computer science graduate presenting a systems-oriented
+                        software portfolio featuring work in compiler design, low-level systems, and full-stack application development.
                     </p>
 
                     <div className="hero__actions">
