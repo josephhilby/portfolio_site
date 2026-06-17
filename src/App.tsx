@@ -3,134 +3,202 @@ import heroImage from "./assets/selfie.png";
 import ProjectsSection, { type Project } from "./components/ProjectSections";
 
 const projects: Project[] = [
-    {
-        name: "FreshlyGround",
-        description:
-            "A programming language and compiler project focused on explicit compilation stages and first-principles language design.",
-        techStack: ["Java", "Gradle", "JUnit", "Javalin", "TypeScript", "HTML/CSS", "React", "Vite", "VitePress", "Docker"],
-        concepts: ["Compiler Design", "Abstract Syntax Trees", "Semantic Analysis", "Code Generation"],
-        liveUrl: "https://freshlyground.onrender.com/",
-        githubUrl: "https://github.com/josephhilby/FreshlyGround",
-        docsUrl: "https://freshlyground-docs.onrender.com/",
-    },
-    {
-        name: "Hack++ (In Progress)",
-        description:
-            "A nand2tetris-inspired computing stack exploring assembly, virtual machines, and computer architecture.",
-        techStack: ["C", "C++", "GoogleTest", "TypeScript", "HTML/CSS", "React", "Vite", "VitePress", "Docker"],
-        concepts: ["Hardware Emulation", "Instruction Set Architecture", "Assembly", "Virtual Machine Abstraction", "Bit Masking",
-            "Memory Management", "Memory Mapped Input/Output", "Learning In Public"],
-        githubUrl: "https://github.com/josephhilby/HackPlusPlus",
-        docsUrl: "https://hackplusplus-docs.onrender.com/",
-    },
+  {
+    name: "FreshlyGround (Compiler Design)",
+    description:
+      "Managed the end-to-end development of a high-level language. Focused on compiler pipeline architecture, semantic analysis, and iterative performance optimization within the SDLC.",
+    techStack: [
+      "Java",
+      "Gradle",
+      "JUnit",
+      "Javalin",
+      "TypeScript",
+      "HTML/CSS",
+      "React",
+      "Vite",
+      "VitePress",
+      "Docker",
+    ],
+    concepts: [
+      "Compiler Design",
+      "Abstract Syntax Trees",
+      "Semantic Analysis",
+      "Code Generation",
+    ],
+    liveUrl: "https://freshlyground.onrender.com/",
+    githubUrl: "https://github.com/josephhilby/FreshlyGround",
+    docsUrl: "https://freshlyground-docs.onrender.com/",
+  },
+  {
+    name: "Hack++ (Systems Architecture, In Progress)",
+    description:
+      "Engineered a full-stack architecture from logic gates to ISA. This project showcases my ability to manage complex technical abstractions and conduct system-wide validation.",
+    techStack: [
+      "C",
+      "C++",
+      "GoogleTest",
+      "TypeScript",
+      "HTML/CSS",
+      "React",
+      "Vite",
+      "VitePress",
+      "Docker",
+    ],
+    concepts: [
+      "Hardware Emulation",
+      "Instruction Set Architecture",
+      "Assembly",
+      "Virtual Machine Abstraction",
+      "Bit Masking",
+      "Memory Management",
+      "Memory Mapped Input/Output",
+      "Learning In Public",
+    ],
+    githubUrl: "https://github.com/josephhilby/HackPlusPlus",
+    docsUrl: "https://hackplusplus-docs.onrender.com/",
+  },
 ];
 
 function App() {
-    return (
-        <div className="site-shell">
-            <header className="hero">
-                <div className="hero__content">
-                    <p className="eyebrow">Aviator and Engineer</p>
-                    <h1 className="hero__name">Joseph Hilby</h1>
+  return (
+    <div className="site-shell">
+      <header className="hero">
+        <div className="hero__content">
+          <p className="eyebrow">Aviator and Engineer</p>
+          <h1 className="hero__name">Joseph Hilby</h1>
 
-                    <p className="hero__tagline">
-                        Management Experience | ~2000 Flight Hours | High-Reliability Software Engineering
-                    </p>
+          <p className="hero__tagline">
+            Technical Program Manager | Systems Engineering & Software
+            Architecture | Veteran Naval Aviator
+          </p>
 
-                    <p className="hero__summary">
-                        Veteran Naval Aviator and UF computer science graduate presenting a systems-oriented
-                        software portfolio featuring work in compiler design, low-level systems, and full-stack application development.
-                    </p>
+          <p className="hero__summary">
+            Technical Program Manager blending high-consequence leadership with
+            engineering expertise. I translate complex technical requirements
+            into reliable, scalable outcomes, bridging the gap between
+            engineering teams and stakeholders.
+          </p>
 
-                    <div className="hero__actions">
-                        <a className="button button--primary" href="#projects">
-                            View Projects
-                        </a>
-                        <a
-                            className="button button--secondary"
-                            href="https://github.com/josephhilby"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            GitHub
-                        </a>
-                        <a
-                            className="button button--secondary"
-                            href="https://www.linkedin.com/in/josephmhilby/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            LinkedIn
-                        </a>
-                        <a
-                            className="button button--secondary"
-                            href="/hilby_resume.pdf"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Resume
-                        </a>
-                    </div>
-                </div>
-
-                <div className="hero__image">
-                    <img src={heroImage} alt="Naval aviation cockpit portrait" />
-                </div>
-            </header>
-
-            <main>
-                <section className="section">
-                    <div className="section__intro">
-                        <p className="section__label">Snapshot</p>
-                        <h2>Aviation experience, now focused on software and systems</h2>
-                        <p>
-                            Former U.S. Naval Aviator with 10+ years leading safety-critical
-                            flight operations, personnel training, aviation maintenance, and logistics.
-                            Currently finishing a second bachelors degree in Computer Science in order
-                            to build a strong technical foundation to succeed and lead in emerging aerospace
-                            and defense technologies.
-                        </p>
-                    </div>
-
-                    <div className="snapshot-grid">
-                        <article className="snapshot-card">
-                            <h3>Military Leadership</h3>
-                            <p>
-                                Led teams of 60+ personnel across aviation operations, pilot training,
-                                aircraft maintenance, and mission-critical logistics in high-reliability
-                                environments requiring disciplined execution and strong operational leadership.
-                            </p>
-                        </article>
-
-                        <article className="snapshot-card">
-                            <h3>High-Risk Operations</h3>
-                            <p>
-                                Accountable for safety-critical operations and more than $1B in
-                                aircraft across deployments, training commands, and emergency response
-                                missions.
-                            </p>
-                        </article>
-
-                        <article className="snapshot-card">
-                            <h3>Current Technical Focus</h3>
-                            <p>
-                                Building portfolio projects in compiler design, computer architecture,
-                                and application development that demonstrate a strong grasp of
-                                computer science fundamentals, layered abstractions, and high-quality
-                                implementation.
-                            </p>
-                        </article>
-                    </div>
-                </section>
-
-                <ProjectsSection projects={projects} />
-            </main>
-
-            <footer className="footer">
-                <p>Built with React, TypeScript, and Vite.</p>
-            </footer>
+          <div className="hero__actions">
+            <a className="button button--primary" href="#projects">
+              View Projects
+            </a>
+            <a
+              className="button button--secondary"
+              href="https://github.com/josephhilby"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              className="button button--secondary"
+              href="https://www.linkedin.com/in/josephmhilby/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              className="button button--secondary"
+              href="/hilby_resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </div>
         </div>
-    );
+
+        <div className="hero__image">
+          <img src={heroImage} alt="Naval aviation cockpit portrait" />
+        </div>
+      </header>
+
+      <main>
+        <section className="section">
+          <div className="section__intro">
+            <h3 className="evolution-heading">Professional Evolution</h3>
+            <h2>Aviation expertise, now focused on technical leadership.</h2>
+          </div>
+
+          <div className="evolution-container">
+            {/* Part 1: Operational Foundation */}
+            <div className="evolution-group">
+              <p className="section__label">
+                The Foundation: Military Operations
+              </p>
+              <div className="snapshot-grid">
+                <article className="snapshot-card">
+                  <h3>Leadership</h3>
+                  <p>
+                    Led teams of 60+ personnel across aviation operations,
+                    training, maintenance, and logistics in high-stress
+                    environments.
+                  </p>
+                </article>
+                <article className="snapshot-card">
+                  <h3>High-Risk Operations</h3>
+                  <p>
+                    Accountable for safety-critical operations and $1B+ in
+                    assets across deployments, training commands, and emergency
+                    response missions.
+                  </p>
+                </article>
+                <article className="snapshot-card">
+                  <h3>Standardization SME</h3>
+                  <p>
+                    Evaluated and certified 250+ personnel, establishing
+                    rigorous quality control benchmarks for complex, high-risk
+                    flight maneuvers.
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            {/* Part 2: TPM Application */}
+            <div className="evolution-group">
+              <p className="section__label">
+                The Focus: Technical Program Management
+              </p>
+              <div className="snapshot-grid">
+                <article className="snapshot-card">
+                  <h3>Technical Stakeholder Alignment</h3>
+                  <p>
+                    Proven ability to synthesize complex technical architectures
+                    for leadership, ensuring cross-functional teams remain
+                    synchronized.
+                  </p>
+                </article>
+                <article className="snapshot-card">
+                  <h3>Program Governance & Risk</h3>
+                  <p>
+                    Expert in managing complex dependencies and mitigating
+                    systemic risks. Applying rigorous QA frameworks to ensure
+                    project availability.
+                  </p>
+                </article>
+                <article className="snapshot-card">
+                  <h3>Systems-First Engineering</h3>
+                  <p>
+                    Deep understanding of the full software/hardware stack.
+                    Architecting systems to understand trade-offs essential for
+                    high-reliability delivery.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <ProjectsSection projects={projects} />
+      </main>
+
+      <footer className="footer">
+        <p>Built with React, TypeScript, and Vite.</p>
+      </footer>
+    </div>
+  );
 }
 
 export default App;
